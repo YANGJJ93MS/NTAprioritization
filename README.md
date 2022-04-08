@@ -4,9 +4,14 @@
 
 #Download the packages to local folder (path_to_file)
 
-#Install the packages using:
+#Install the packages using
+(1):
 
 install.packages(path_to_file, repos = NULL, type="source")
+
+(2):
+
+
 
 #get predicted retention time and RT-MS/MS level by typing getRTMSMS() in Rstudio console:
 
