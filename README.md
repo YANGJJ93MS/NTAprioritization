@@ -12,3 +12,4 @@ getRTMSMS()
 #get Toxicity level and Compound priority in 5 tiers by typing getRTMSMS() in Rstudio console:
 getTierlevel()
 #refer to the folder where the raw data is stored and find the result table and plot
+
