@@ -7,8 +7,8 @@ NTAprioritization is an R package for analyzing raw candidate list obtained from
 ## **Installation**
 1. `NTAprioritization` requires R version equal or newer than 4.1.1. The following script allows to install rexposome dependencies:
 
-`if (!requireNamespace("BiocManager", quietly=TRUE))
-		install.packages("BiocManager")`
+`if (!requireNamespace("BiocManager", quietly=TRUE)){
+		install.packages("BiocManager")}`
     
 `packages = c('rcdk','rcdklibs','randomForest','leaps','caret','corrplot','tidyverse',
 			'mlr','dplyr','Metrics','ggpubr','ggplot2','miceadds','rio','openxlsx','ggrepel')`
